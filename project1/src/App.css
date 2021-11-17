@@ -1,0 +1,255 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.container{
+  height: 100vh;
+  background: url(assets/mov-webseries-collage.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+}
+.container_color{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: inherit;
+  width: 100%;
+  background-image:linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%)
+}
+header{
+  background-color: transparent;
+  /* box-shadow: 0px 15px 20px #000; */
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+nav{
+  width: 100%;
+  display: flex;
+}
+nav .logo{
+  margin-left: 30px;
+  width: 20%;
+}
+.logo img{
+  height: auto;
+  width: 10vw;
+}
+.search{
+  width: 50%;
+}
+.search  input{
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 400px;
+  position: relative;
+  outline: none;
+  background-color: #eee;
+}
+.search-icon{
+  padding: 11px;
+  position: absolute;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  top: 20px;
+  cursor: pointer;
+  outline: none;
+  background-color: #eee;
+}
+.nav-list{
+  width: 25%;
+  
+}
+
+ul{
+  /* margin-right: 30px; */
+  display: flex;
+  justify-content: end;
+  
+}
+ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 8px;
+}
+
+.nav_signin_btn{
+  padding: 7px 17px;
+  background-color: #e50914 ;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+.nav_signup_btn{
+  padding: 7px 17px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  
+}
+.welcome_msg{
+  color: #fff;
+  margin: 100px;
+  text-align: center;
+  width: 80vw;
+  text-transform: capitalize;
+  
+}
+.welcome_msg h1{
+  font-size: 400%;
+}
+.welcome_msg h2{
+  margin-top: 15px;
+  font-size: 200%;
+}
+.welcome_msg h3{
+  margin-top: 10px;
+  font-size: 180%;
+}
+.welcome_msg h4{
+  margin-top: 20px;
+  font-size: 130%;
+}
+
+.form_content{
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  padding: 50px;
+  color: #fff;
+  margin-top: 20px;
+
+}
+.signIn_form{
+  height: 50vh;
+  width: 18vw;
+}
+.signUp-form{
+   height: 75vh;
+   width: 18vw;
+}
+.forgot_form{
+  height: 35vh;
+  width: 18vw;
+}
+.reset_form{
+  height: 35vh;
+  width: 18vw;
+}
+.profile_form{
+  height: 70vh;
+  width: 50vw;
+  border-radius: 50px;
+  
+}
+.input_group{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.input_group .profile_inputs{
+  width: 300px;
+  margin: 0 20px 0 20px;
+}
+.profile_inputs i{
+  display: inline-block;
+}
+.form_title{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  /* border: 1px solid; */
+}
+
+
+.form-group{
+  padding-top: 20px;
+  /* width: 100%; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-group input[type="text"],input[type="password"]{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  height: 20px;
+  background-color: #333;
+  color: #fff;
+}
+.form-group input[type="text"]:focus,input[type="password"]:focus{
+  outline: 1px solid #e50914;
+
+}
+.error{
+  text-align: left;
+  color: #e50914;
+  font-size: 0.7em;
+
+}
+.btn-box{
+  margin-top: 10px;
+  
+}
+.btn-box .btn{
+  padding: 10px 0;
+  background-color: #e50914 ;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.profile-btn{
+  width: 200px;
+ margin: auto; 
+}
+.form-bottom{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: #b3b3b3;
+}
+ #cbox{
+  
+  cursor: pointer;
+}
+.form-bottom p{
+  color: #b3b3b3;
+}
+
+.link{
+  
+  text-decoration: none;
+  color: #fff;
+}
